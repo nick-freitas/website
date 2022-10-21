@@ -111,9 +111,7 @@
             <a href="mailto:nick@nfreitas.com">nick@nfreitas.com</a>
           </div>
           <p class="lead mb-5">
-            Software Engineer. I recently started a
-            <a href="https://nick-freitas.github.io/">blog</a> to go into
-            personal projects, check it out.
+            Software Engineer with 7 years’ full-stack experience. Developed Angular frontends, JS/TS/Python APIs backends, and scalable microservices using AWS cloud products. Experience with both Scrum and SAFe Agile in three different teams, including demoing work completed by the team to contract stakeholders.
           </p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/nickolasfreitas/"
@@ -122,18 +120,18 @@
             <a href="https://github.com/nick-freitas"
               ><i class="svg-icon github"></i
             ></a>
-            <a href="https://nick-freitas.github.io/"
-              ><i class="svg-icon blogger"></i
-            ></a>
-            <a href="https://twitch.tv/codingtimewithnick"
-              ><i class="svg-icon twitch"></i
-            ></a>
+<!--            <a href="https://nick-freitas.github.io/"-->
+<!--              ><i class="svg-icon blogger"></i-->
+<!--            ></a>-->
+<!--            <a href="https://twitch.tv/codingtimewithnick"-->
+<!--              ><i class="svg-icon twitch"></i-->
+<!--            ></a>-->
             <!-- <a href="https://youtube.com/channel/UCQ8hD_FPnQGaQaysm6jaHNA"
               ><i class="svg-icon youtube"></i
             ></a> -->
-            <a href="https://www.twitter.com/coding_nick"
-              ><i class="svg-icon twitter"></i
-            ></a>
+<!--            <a href="https://www.twitter.com/coding_nick"-->
+<!--              ><i class="svg-icon twitter"></i-->
+<!--            ></a>-->
           </div>
         </div>
       </section>
@@ -142,6 +140,43 @@
       <section class="resume-section" id="experience">
         <div class="resume-section-content">
           <h2 class="mb-5">Experience</h2>
+          <!--        haplet -->
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-0">Full Stack Engineer</h3>
+              <div class="subheading mb-3">Haplet</div>
+              <p>Developer in Analytic Cloud Reporting (ACR), a modernization effort to move Hospital Quality Report generation to AWS. ACR consists of Python microservices used to generate Excel reports; a Golang API with a PostgreSQL DB for bundling reports; and an Angular frontend for hospital users to download their quality reports.</p>
+              <ul>
+                <li>
+                  Created a Golang API using the Repository-Service pattern, that communicates with S3, SQS, and PostgreSQL to deliver reports.
+                </li>
+                <li>
+                  Worked with PMs, Tech Leads, and Architects on designing solutions, and later implementing them.
+                </li>
+                <li>
+                  Introduced concurrency/multiprocessing to the report generation microservice, leading to an 80-90% decrease in runtime.
+                </li>
+                <li>
+                  Co-ordinated with other teams to add and deploy new features in shared repositories.
+                </li>
+                <li>
+                  Trained new developers coming into ACR on the different products and technologies used.
+                </li>
+                <li>
+                  Added unit tests to Python, Go, and Angular products covering 80+% of codebases, that caught future development bugs.
+                </li>
+                <li>
+                  Created Classification and Regression models as part of an anomaly detection proof-of-concept to validate measure scores.
+                </li>
+              </ul>
+            </div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">September 2021 - Present</span>
+            </div>
+          </div>
+<!--          patriot-->
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -149,29 +184,21 @@
               <h3 class="mb-0">Software Engineer</h3>
               <div class="subheading mb-3">Patriot Properties</div>
               <p>
-                Created a form for a .NET desktop application to validate
-                automated work done in a nightly process, and manually execute
-                part of it.
+                Developer in AssessPro, a Computer Assisted Mass Appraisal (CAMA) application used by hundreds of jurisdictions. AssessPro is a C#/.NET desktop application and uses Microsoft SQL Server as the database.
               </p>
-              <p>
-                Work with Clients, Business Analysist, and Project Managers to
-                implement customizations for state/county specific logic for
-                various workflow processes.
-              </p>
-              <p>
-                Optimized valuations, workflows, extracts, and imports to
-                significantly reduce runtime by several orders of magnitude.
-              </p>
-              <p>
-                Work with Data Conversion specialists to convert data from
-                legacy CAMA systems, and validating critical data sent to the
-                Department of Revenue and to taxpayers.
-              </p>
+              <ul>
+                <li>Worked closely with Clients, BAs, and PMs to implement state/county specific workflows in the product.</li>
+                <li>Optimized valuations, extracts, and imports to reduce runtime by several orders of magnitude.</li>
+                <li>Created interfaces for validating nightly processes, manually run those processes, and reporting results.</li>
+                <li>Worked with data conversion specialists to validate critical data sent to the Department of Revenue and taxpayers.</li>
+              </ul>
+
             </div>
             <div class="flex-shrink-0">
-              <span class="text-primary">July 2017 - Present</span>
+              <span class="text-primary">July 2017 - September 2021</span>
             </div>
           </div>
+<!--          jd-->
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
@@ -179,37 +206,16 @@
               <h3 class="mb-0">Full Stack Web Developer</h3>
               <div class="subheading mb-3">JD Software</div>
               <p>
-                Created a reporting and business intelligence interface with
-                Elasticsearch and D3, that aggregates data based on user-defined
-                parameters, which can later be exported and shared with the
-                public.
+                Developer in Arc, a commercial off-the-shelf (COTS) electronic licensing and permitting solution. Arc is built with an Angular frontend, Express.js backend, and uses MongoDB as the database.
               </p>
-              <p>
-                Created a drag-and-drop workflow interface using Business
-                Process Model and Notation (BPMN) to allow users to create
-                customizable approval processes.
-              </p>
-              <p>
-                Migrated application from Angular.js to Angular, leading to a
-                decrease in page load times.
-              </p>
-              <p>
-                Integrated Elasticsearch with our primary MongoDB database,
-                allowing new data to be shown in reports and business
-                intelligence charts in near real time.
-              </p>
-              <p>
-                Cached commonly accessed API data using Redis, leading to a
-                decrease in server response time.
-              </p>
-              <p>
-                Worked with the CEO and Product Manager to design and implement
-                new features and prepare application for demos.
-              </p>
-              <p>
-                Introduced NgRx to store application state used by different
-                modules.
-              </p>
+              <ul>
+                <li>Created a reporting and business intelligence interface that aggregates data based on user-defined parameters.</li>
+                <li>Integrated Elasticsearch with MongoDB, allowing real-time use of data in reports and business intelligence charts.</li>
+                <li>Created a drag-and-drop BPMN workflow interfaces to allow users to create customizable approval processes.</li>
+                <li>Migrated the product from Angular.js to Angular, decreasing page load times and increasing performance.</li>
+                <li>Cached commonly accessed API endpoints using Redis, leading to a decrease in API response time.</li>
+                <li>Introduced NgRx to store application state used by different modules, decreasing overall code complexity.</li>
+              </ul>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">May 2015 - June 2017</span>
@@ -219,7 +225,7 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-0">Assisstant Lab Administrator</h3>
+              <h3 class="mb-0">Assistant Lab Administrator</h3>
               <div class="subheading mb-3">Salem State University</div>
               <p>
                 Created an inventory and log management application using MVC
@@ -242,7 +248,7 @@
           <ul class="fa-ul mb-4">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              ES6/JavaScript, TypeScript, HTML/CSS/SCSS
+              ES6/JavaScript/TypeScript, HTML/CSS/SCSS, Golang, Python, C#/.NET
             </li>
           </ul>
           <div class="subheading mb-2">Frontend</div>
@@ -256,22 +262,28 @@
           <ul class="fa-ul mb-4">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              Node.js, Nest.js, Express.js, Amazon Web Services (AWS), Hasura,
-              GraphQL, REST
+              Node.js, Nest.js/Express.js, GraphQL, REST
+            </li>
+          </ul>
+          <div class="subheading mb-2">Cloud Development</div>
+          <ul class="fa-ul mb-4">
+            <li>
+              <span class="fa-li"><i class="fas fa-check"></i></span>
+              Amazon Web Services (AWS), S3, SQS, Lambda, ECS, Step Functions, Hasura
             </li>
           </ul>
           <div class="subheading mb-2">Datastores</div>
           <ul class="fa-ul mb-4">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              SQL Server, MongoDB, ElasticSearch, Redis
+              MS SQL Server, MongoDB, Elasticsearch, Redis
             </li>
           </ul>
           <div class="subheading mb-2">Misc</div>
           <ul class="fa-ul mb-4">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              Git, SVN, Agile/Scrum, Nx
+              Git, Jira, SonarQube, SVN, Agile (Scrum, SAFe)
             </li>
           </ul>
         </div>
@@ -285,41 +297,41 @@
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
-            <div class="flex-grow-1 d-flex flex-column">
-              <h3 class="mb-0">Nubia Gamebooks</h3>
-              <span class="subheading">Full Stack</span>
-              <span class="subheading">Angular/Nest/Nx/Postgres/Prisma</span>
-              <!-- <a href="http://vampnotebook.com/"
-                >Application Site (Hosted on AWS)</a
-              > -->
-              <a href="https://github.com/nick-freitas/nubia"
-                >Source Code (Github)</a
-              >
-              <p class="mt-3">
-                Nubia is a gamebook application where people can create/read
-                choose-your-own-adventure style stories. (Work in progress)
-              </p>
-              <p>
-                The frontend applications will be written in Typescript using
-                Angular with Material, with Nx to store everything in a
-                monorepo. The backend applications will be written in Nest.js
-                with Postgres as the datastore and Prisma as the ORM in the same
-                Nx workspace. Nubia will contain a single api serving 3 frontend
-                applications: a store app where users can buy gamebooks; a
-                reader app where users can read gamebooks in their library; and
-                a writer app where users can create gamebooks.
-              </p>
-              <p>
-                This is a work in progress, being partly worked on on
-                <a href="https://www.twitch.tv/codingtimewithnick">stream</a>. I
-                am currently on break from streaming, but will be making VODs
-                when I go back. Please visit the
-                <a href="https://nick-freitas.github.io/nubia-overview/"
-                  >Nubia Gamebooks Overview
-                </a>
-                blog post to learn more about this application.
-              </p>
-            </div>
+<!--            <div class="flex-grow-1 d-flex flex-column">-->
+<!--              <h3 class="mb-0">Nubia Gamebooks</h3>-->
+<!--              <span class="subheading">Full Stack</span>-->
+<!--              <span class="subheading">Angular/Nest/Nx/Postgres/Prisma</span>-->
+<!--              &lt;!&ndash; <a href="http://vampnotebook.com/"-->
+<!--                >Application Site (Hosted on AWS)</a-->
+<!--              > &ndash;&gt;-->
+<!--              <a href="https://github.com/nick-freitas/nubia"-->
+<!--                >Source Code (Github)</a-->
+<!--              >-->
+<!--              <p class="mt-3">-->
+<!--                Nubia is a gamebook application where people can create/read-->
+<!--                choose-your-own-adventure style stories. (Work in progress)-->
+<!--              </p>-->
+<!--              <p>-->
+<!--                The frontend applications will be written in Typescript using-->
+<!--                Angular with Material, with Nx to store everything in a-->
+<!--                monorepo. The backend applications will be written in Nest.js-->
+<!--                with Postgres as the datastore and Prisma as the ORM in the same-->
+<!--                Nx workspace. Nubia will contain a single api serving 3 frontend-->
+<!--                applications: a store app where users can buy gamebooks; a-->
+<!--                reader app where users can read gamebooks in their library; and-->
+<!--                a writer app where users can create gamebooks.-->
+<!--              </p>-->
+<!--              <p>-->
+<!--                This is a work in progress, being partly worked on on-->
+<!--                <a href="https://www.twitch.tv/codingtimewithnick">stream</a>. I-->
+<!--                am currently on break from streaming, but will be making VODs-->
+<!--                when I go back. Please visit the-->
+<!--                <a href="https://nick-freitas.github.io/nubia-overview/"-->
+<!--                  >Nubia Gamebooks Overview-->
+<!--                </a>-->
+<!--                blog post to learn more about this application.-->
+<!--              </p>-->
+<!--            </div>-->
           </div>
 
           <!-- <div
